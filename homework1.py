@@ -18,3 +18,4 @@ model.fit(x_train, y_train, batch_size=32, epochs=5, validation_data=(x_test, y_
 model.summary()
 # first commit
 # second commit
+# third commit
