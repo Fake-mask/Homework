@@ -107,6 +107,7 @@ def cal_rsi(df0, period=6):  # 默认周期为6日
 
 
 def plot_rsi(plot_mat):
+
     from matplotlib import pyplot as plt
 
     plt.plot(plot_mat.day[100:160], plot_mat.rsi[100:160], label='RSI')
